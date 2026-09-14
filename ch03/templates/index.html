@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>숫자 증가</title>
+
+    <script src="{{ url_for('static', filename='index.js') }}" defer></script>
+</head>
+
+<body>
+
+    <h2>클릭 시 숫자 증가</h2>
+
+    <div id="number" style="font-size: 100px;">0</div>
+
+    <button id="increase"
+        style="background-color: blue; color: white; font-size: 30px;">
+        수 증가
+    </button>
+
+    <button id="send"
+        style="background-color: green; color: white; font-size: 30px;">
+        수 전송
+    </button>
+
+</body>
+</html>
