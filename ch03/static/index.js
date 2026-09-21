@@ -10,7 +10,7 @@ increaseButton.addEventListener("click", function () {
 });
 
 sendButton.addEventListener("click", function () {
-    location.href='http://라즈베리파이주소:5000/'+count
+    location.href='http://10.150.1.0:5001/'+count
     count = 0;
     number.innerText = count;
 });
